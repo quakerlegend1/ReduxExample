@@ -11,14 +11,11 @@ export const sidebarSlice = createSlice({
        increment: (state) => {
         state.value += 1
        },
-       decrement: (state) => {
-        state.value -= 1
-       },
        resetCount: (state) => {
         state.value = 0
        },
     }
 })
 
-export const {increment, decrement, resetCount} = sidebarSlice.actions
+export const {increment, resetCount} = sidebarSlice.actions
 export default sidebarSlice.reducer
