@@ -31,6 +31,7 @@ function App() {
     <>
     
     <div className="App">
+      <h4>Redux позволяет избегать prop-drilling</h4>
       <ReduxSideBar/>
       <SidebarUseState count={count} arr={arr}/>
       <div>
