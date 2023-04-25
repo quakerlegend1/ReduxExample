@@ -37,7 +37,7 @@ function App() {
           <img src={reduxLogo} className="logo"alt="Vite logo" />
           <img src={reactLogo} className="logo" alt="React logo" /> 
       </div>
-      <h1>Redux<sub style={{fontSize:"14px"}}>Toolkit</sub> + React</h1>
+      <h1>Redux<sub style={{fontSize:"14px"}}>Toolkit</sub>+ React</h1>
       <div className="card">
         <button onClick={()=> dispatch(increment())}>
           Redux count is {countRedux}
